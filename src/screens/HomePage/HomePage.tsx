@@ -84,13 +84,13 @@ export const HomePage = (): JSX.Element => {
           {[...trustedCompanies, ...trustedCompanies].map((company, index) => (
             <Card
               key={index}
-              className="inline-block bg-[#18181d] border-none rounded-[18px] min-w-[150px] sm:min-w-[180px] md:min-w-[200px] lg:min-w-[269px] px-6 py-4"
+              className="inline-block bg-[#18181d] border-none rounded-[18px] min-w-[150px] sm:min-w-[180px] md:min-w-[200px] lg:min-w-[269px] px-6 py-4 max-[550px]:px-0 max-[500px]:py-0"
             >
               <CardContent className="px-6 py-4 flex justify-center items-center h-full">
                 <img
                   src={company.src}
                   alt={company.alt}
-                  className="object-contain max-h-10 w-auto"
+                  className="object-contain max-h-15 w-auto"
                 />
               </CardContent>
             </Card>
