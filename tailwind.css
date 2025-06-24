@@ -1,0 +1,187 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --big-buttton-2-font-family: "Inter", Helvetica;
+  --big-buttton-2-font-size: 18px;
+  --big-buttton-2-font-style: normal;
+  --big-buttton-2-font-weight: 500;
+  --big-buttton-2-letter-spacing: 0px;
+  --big-buttton-2-line-height: 120.00000762939453%;
+  --black: rgba(20, 20, 20, 1);
+  --black-300: rgba(210, 211, 214, 1);
+  --black-400: rgba(160, 164, 173, 1);
+  --black-800: rgba(45, 51, 64, 1);
+  --bright: rgba(68, 70, 84, 1);
+  --color-schemeprimary-01: rgba(205, 255, 9, 1);
+  --h-extra-font-family: "Inter", Helvetica;
+  --h-extra-font-size: 28px;
+  --h-extra-font-style: normal;
+  --h-extra-font-weight: 500;
+  --h-extra-letter-spacing: 0px;
+  --h-extra-line-height: 120.00000762939453%;
+  --heading-display-h1-font-family: "Inter", Helvetica;
+  --heading-display-h1-font-size: 74px;
+  --heading-display-h1-font-style: normal;
+  --heading-display-h1-font-weight: 700;
+  --heading-display-h1-letter-spacing: 0px;
+  --heading-display-h1-line-height: 110%;
+  --heading-h2-font-family: "Inter", Helvetica;
+  --heading-h2-font-size: 48px;
+  --heading-h2-font-style: normal;
+  --heading-h2-font-weight: 600;
+  --heading-h2-letter-spacing: 0px;
+  --heading-h2-line-height: 120.00000762939453%;
+  --heading-h4-font-family: "Inter", Helvetica;
+  --heading-h4-font-size: 24px;
+  --heading-h4-font-style: normal;
+  --heading-h4-font-weight: 600;
+  --heading-h4-letter-spacing: 0px;
+  --heading-h4-line-height: 130%;
+  --medium-button-font-family: "Inter", Helvetica;
+  --medium-button-font-size: 16px;
+  --medium-button-font-style: normal;
+  --medium-button-font-weight: 500;
+  --medium-button-letter-spacing: 0px;
+  --medium-button-line-height: 120.00000762939453%;
+  --neutral-01: rgba(255, 255, 255, 1);
+  --neutral-02: rgba(235, 235, 235, 1);
+  --neutral-03: rgba(160, 164, 173, 1);
+  --neutral-04: rgba(16, 27, 36, 1);
+  --neutral-05: rgba(9, 9, 15, 1);
+  --neutral-100: rgba(247, 247, 247, 1);
+  --neutral-300: rgba(210, 211, 214, 1);
+  --neutral-50: rgba(251, 251, 251, 1);
+  --neutral-500: rgba(115, 119, 128, 1);
+  --paragraph-p1-size-18px-medium-font-family: "Inter", Helvetica;
+  --paragraph-p1-size-18px-medium-font-size: 18px;
+  --paragraph-p1-size-18px-medium-font-style: normal;
+  --paragraph-p1-size-18px-medium-font-weight: 500;
+  --paragraph-p1-size-18px-medium-letter-spacing: 0px;
+  --paragraph-p1-size-18px-medium-line-height: 160%;
+  --paragraph-p1-size-18px-regular-font-family: "Inter", Helvetica;
+  --paragraph-p1-size-18px-regular-font-size: 18px;
+  --paragraph-p1-size-18px-regular-font-style: normal;
+  --paragraph-p1-size-18px-regular-font-weight: 400;
+  --paragraph-p1-size-18px-regular-letter-spacing: 0px;
+  --paragraph-p1-size-18px-regular-line-height: 160%;
+  --paragraph-p1-size-18px-semibold-font-family: "Inter", Helvetica;
+  --paragraph-p1-size-18px-semibold-font-size: 18px;
+  --paragraph-p1-size-18px-semibold-font-style: normal;
+  --paragraph-p1-size-18px-semibold-font-weight: 600;
+  --paragraph-p1-size-18px-semibold-letter-spacing: 0px;
+  --paragraph-p1-size-18px-semibold-line-height: 160%;
+  --paragraph-p2-size-16px-medium-font-family: "Inter", Helvetica;
+  --paragraph-p2-size-16px-medium-font-size: 16px;
+  --paragraph-p2-size-16px-medium-font-style: normal;
+  --paragraph-p2-size-16px-medium-font-weight: 500;
+  --paragraph-p2-size-16px-medium-letter-spacing: 0px;
+  --paragraph-p2-size-16px-medium-line-height: 160%;
+  --paragraph-p2-size-16px-regular-font-family: "Inter", Helvetica;
+  --paragraph-p2-size-16px-regular-font-size: 16px;
+  --paragraph-p2-size-16px-regular-font-style: normal;
+  --paragraph-p2-size-16px-regular-font-weight: 400;
+  --paragraph-p2-size-16px-regular-letter-spacing: 0px;
+  --paragraph-p2-size-16px-regular-line-height: 160%;
+  --small-button-font-family: "Inter", Helvetica;
+  --small-button-font-size: 12px;
+  --small-button-font-style: normal;
+  --small-button-font-weight: 500;
+  --small-button-letter-spacing: 0px;
+  --small-button-line-height: 120.00000762939453%;
+  --stateinfo: rgba(245, 166, 35, 1);
+  --text-colortitle-color: rgba(48, 55, 62, 1);
+  --theme-schemeprimary-01: rgba(205, 255, 9, 1);
+  --white: rgba(255, 255, 255, 1);
+  --x3-background-colorswhite-color: rgba(255, 255, 255, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+  
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
